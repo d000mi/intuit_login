@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intuit Accounts - Sign Up</title>
+    <style>body {
+  margin: 0;
+  background: #ECEEF1;
+  font-family: Roboto, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  padding: 10px 30px 10px 0;
+  height: 35px;
+}
+
+.nav .btn {
+  float: right;
+  height: 35px;
+  padding: 0 20px;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  background: #0077C5;
+  color: white;
+  align-items: flex-start;
+  text-align: center;
+  display: inline-block;
+}
+
+.nav p {
+  float: right;
+  margin: 0 10px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.nav p a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #0077C5;
+}
+
+.intuit-logo {
+  width: 100%;
+  height: 100%;
+  text-align: center
+}
+
+.intuit-logo img {
+  width: 140px;
+  margin: 20px;
+}
+
+.form-container {
+  width: 380px;
+  border: 1px solid #C1C5C8;
+  height: 597px;
+  background-color: white;
+  margin: 10px auto;
+  padding: 30px 0;
+  text-align: left;
+}
+
+.form-container form {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.form-container .sign-in-form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+}
+
+.sign-in-form .text {
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.sign-in-form .text2 {
+  margin: 25px 0 0 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.link-decoration {
+  text-decoration: none;
+  color: #0077C5;
+  font-size: 12px
+}
+
+.form-container .sign-in-form label {
+  position: relative;
+  display: block;
+  margin: 30px 0 10px 0;
+  font-size: 14px;
+  text-align: left;
+  text-align: left;
+  text-align: left;
+}
+
+.form-container .sign-in-form input {
+  position: relative;
+  width: 94%;
+  height: 34px;
+  padding: 0 8px;
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.form-container .sign-in-form .standard-call {
+  font-size: 10px;
+  text-align: left;
+}
+
+.form-container .sign-in-form .create-button {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  margin-top: 30px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  background: #0077C5;
+  color: white;
+}
+
+.form-container .sign-in-form .license-agreement {
+  margin: 40px 0 0 0;
+  text-align: center;
+  line-height: 1;
+  font-weight: 400;
+  font-size: 13px;
+  color: #bbb;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0 5px 0;
+  line-height: 1.5;
+  font-size: 12px;
+  color: #505050;
+  margin: 0 0 10px 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <button type="button" class="btn">   
+     Sign in
+    </button>
+        <p>
+          Already have an Intuit account?
+          <br>
+          <a href="#">
+        I forgot my user ID or password
+      </a>
+        </p>
+      </div>
+    </header>
+
+    <section>
+      <div class="intuit-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Intuit_Logo.svg">
+      </div>
+
+      <div class="form-container">
+        <form action="#" method="POST">
+          <fieldset class="sign-in-form">
+            <p class="text">One Account.<br>Everything Intuit.</p>
+            <p class="text2">Create an account for all of Intuit's products<br>including Mint. <a href="#" class="link-decoration">Learn more</a>
+              <label for="email">Email adress</label>
+              <input type="email" name="email" id="email">
+              <label for="number">Phone (recommended)</label>
+              <input type="number" name="phone-number" id="number">
+              <br>
+              <span class="standard-call">Standard call, messaging or data rates may apply.</span>
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password">
+              <button type="button" class="create-button">Create account</button>
+              <p class="license-agreement">By clicking Create Account, you agree to our<br><a href="#" class="link-decoration">License Agreement</a> and have read and acknowledge<br>our <a href="#" class="link-decoration">Privacy Statement.</a></p>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>Mint bill pay services provided by Intuit Payments Inc. under applicable <a href="#" class="link-decoration">licenses.</a></p>
+      <ul>
+        <li>Legal</li>
+        <li>Privacy</li>
+        <li>Security</li>
+      </ul>
+      <p>© 2018 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+
+    </footer>
+
+  </body>
+
+</html>
